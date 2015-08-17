@@ -1,0 +1,12 @@
+# Site settings
+title: Michael Bartoli's blog
+email: 
+description: "a blog"
+baseurl: ""
+url: "http://mbartoli.github.io"
+twitter_username: 
+github_username:  mbartoli
+
+# Build settings
+markdown: redcarpet
+permalink: pretty

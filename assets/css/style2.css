@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+@font-face { font-family: Source Sans Pro; src: url(../fonts/sanspro.woff)format('woff'); } 
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+ src: url(../fonts/sanspro.woff)format('woff');;
+}
+
+@font-face {
+  font-family: 'biko';
+  font-style: normal;
+ src: url(../fonts/bik.woff)format('woff');;
+}
+
+::selection {
+  background-color: #b3d4fc;
+}
+
+::-moz-selection {
+  background-color: #b3d4fc;
+}
+
+body {
+  background-color: #FFF;
+  font-family: 'Source Sans Pro', normal;
+  font-size: 16px;
+  color: #666;
+}
+
+.container2 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+.container-inner2 {
+  display: table-cell;
+  vertical-align: middle;
+}
+h12, h13,{
+    text-align: center;
+
+}
+
+h12 {font-family: 'helvetica neue', normal;
+
+  font-size: 36px;
+  font-weight: 200;
+  letter-spacing: 0.0718em;
+/*  line-height: 2.618em;*/
+}
+h13,h14 {
+  font-family: 'helvetica neue', normal;
+  font-size: 14px;
+  font-weight: 400;
+    letter-spacing: 0.0718em;
+
+}
+h12:hover {
+  cursor: default;
+}
+h12 span {
+  color: #2ecc71;
+}
+h14 {font-size: 10pt;    letter-spacing: 0.0218em;   font-family: 'arial', normal;
+
+}
+
+nav2 {
+  text-align: center;
+}
+
+ul2, li, a2 {
+  display: inline-block;
+}
+
+li2 {
+  border-right: 1px solid #DDD;
+  padding: 5px 7px 5px 5px;
+}
+li:last-child {
+  border-right-color: transparent;
+}
+
+a2{
+  width: 64px;
+  height: 64px;
+  line-height: 64px;
+  text-decoration: none;
+  color: #FFF;
+  font-family: "zocial", sans-serif;
+  font-size: 24px;
+  -moz-transition: background-color 0.15s ease-in-out;
+  -o-transition: background-color 0.15s ease-in-out;
+  -webkit-transition: background-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
+}
+a2:hover {
+  background-color: #2ecc71;
+}
+a2:active {
+  background-color: #25a25a;
+}
+
+#border2{height:2.0px; background-color:#ca3092;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;}
+
+hr {     text-align:center;
+    height: 20px;}
+
+.change-color{ }
+
+.invert{    -webkit-filter: invert(100%);
+    filter: invert(100%);
+  }
+
+z3, z4 {
+  font-family: "Source Sans Pro", sans-serif;
+
+}
+
+
+z3{  font-size: 32px;font-weight:bold;
+    letter-spacing: 0.0918em;
+    line-height: 190%;
+
+
+}
+z4{   font-family:Helvetica ;
+  font-size: 20px;
+  font-weight: 300;
+    letter-spacing: 0.0518em;
+    line-height: 120%;
+
+
+}
+
+.paragraph-new{text-align:center; padding:0 200px 0 200px; }
+
+.container.paragraph-new{background-color: #000;}
+
+.blue {
+    color: #2ecc71;
+}
+.red{
+  color:#F00;
+}
+.inner-section{color:;}
+
+#up-top{color: #fff;background: #2ecc71;font-size: 18px;line-height: 100%;display: inline-block;position: fixed;right: 0;top: 0;}
+#up-top a,#up-top a:hover,#up-top a:focus{color: #fff;padding: 10px;display: block;}
+
